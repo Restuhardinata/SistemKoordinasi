@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="space_checkbpx">10dp</dimen>
+
+    <dimen name="level">40sp</dimen>
+    <dimen name="actionbar_title">25sp</dimen>
+    <dimen name="question_size">20sp</dimen>
+    <dimen name="question_pic">20sp</dimen>
+    <dimen name="checkbox_pic">20sp</dimen>
+</resources>

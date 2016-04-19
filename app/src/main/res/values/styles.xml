@@ -1,0 +1,134 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="start">
+        <item name="android:textSize">29sp</item>
+    </style>
+
+    <style name="DashboardButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff29549f</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <string-array name="ent_ques">
+        <item>Q1. Neuron yang berfungsi dalam penghantaran impuls dari panca indra ke pusat saraf adalah...</item>
+        <item>Q2. Uji refleks sering dilakukan dengan cara memukulkan benda lunak secara tiba-tiba ke bagian bawah tempurung lutut sehingga secara tidak sadar tungkai bawah penderita bergerak ke arah depan. Gerakan tersebut melibatkan busur refleks yang dimulai dari lutut kemudian diteruskan ke... </item>
+        <item>Q3. Sistem saraf pusat (SSP) dibentuk oleh...</item>
+        <item>Q4. Lapisan terluar pelindung otak yang bersifat tebal dan kuat disebut...</item>
+        <item>Q5. Bagian otak yang mengatur gerakkan sadar yang berhubungan dengan keterampilan, seperti mengetik dan main piano, yaitu...</item>
+        <item>Q6. Struktur organ saraf dengan bagian luarnya terdiri ats substansi putih dan bagian dalamnya terdiri atas substansi abu-abu adalah...</item>
+        <item>Q7. Saraf fasial (CN VII) berperan dalam penghantaran impuls dan berpengaruh pada...</item>
+        <item>Q8. Efek stimulasi sistem saraf simpatis, yaitu...</item>
+        <item>Q9. Hormon yang berfungsi merangsang kontraksi otot polos uterus selama proses kelahiran adalah...</item>
+        <item>Q10. Hormon LH (luteinizing hormone) dalam sistem reproduksi berperan dalam proses...</item>
+        <item>Q11. Hormon yang dihasilkan kelenjar hipofisis adalah...</item>
+        <item>Q12. Hormon yang sifatnya bertentangan dalam pengaturan kadar gula darah yaitu...</item>
+        <item>Q13. Saluran telinga yang dapat terbuka pada saat menguap, mengunyah, dan menelan yaitu...</item>
+        <item>Q.14 Indra peraba (kulit) memiliki ujung saraf bebas sebagai reseptor sensor yang mendeteksi berbagai macam rangsangan, kecuali...</item>
+        <item>Q.15 Kelainan mata yang bersifat menurun yaitu...</item>
+    </string-array>
+
+    <string-array name="ent_cho_A">
+        <item>neuron sensor</item>
+        <item>sensoris-sumsum tulang belakang-motoris-kaki</item>
+        <item>otak besar dan otak kecil</item>
+        <item>meninges</item>
+        <item>mesensefalon</item>
+        <item>otak</item>
+        <item>pendengaran</item>
+        <item>penyempitan pupil mata</item>
+        <item>prolaktin</item>
+        <item>ovulasi</item>
+        <item>ACTH dan LH</item>
+        <item>tiroksin dan kalsitonin</item>
+        <item>saluran eustachius</item>
+        <item>tekanan kuat</item>
+        <item>katarak</item>
+    </string-array>
+
+    <string-array name="ent_cho_B">
+        <item>neuron konektor</item>
+        <item>motoris-sumsum tulang belakang-sensoris-kaki</item>
+        <item>otak dan medula spinalis</item>
+        <item>pia meter</item>
+        <item>serebelum</item>
+        <item>medula spinalis</item>
+        <item>penglihatan</item>
+        <item>penurunan frekuensi kontraksi jantung</item>
+        <item>oksitosin</item>
+        <item>kontraksi uterus</item>
+        <item>PTH dan FSH</item>
+        <item>insulin dan adrenalin</item>
+        <item>utrikulus</item>
+        <item>sentuhan</item>
+        <item>rabun senja</item>
+    </string-array>
+
+    <string-array name="ent_cho_C">
+        <item>neuron bipolar</item>
+        <item>sensoris-motoris-sumsum tulang belakang-kaki</item>
+        <item>otak besar dan sistem limbik</item>
+        <item>araknoid</item>
+        <item>serebrum</item>
+        <item>mesensefalon</item>
+        <item>penciuman</item>
+        <item>merangsang sekresi air mata</item>
+        <item>relaksin</item>
+        <item>sekresi kelenjar susu</item>
+        <item>tiroksin dan ADH</item>
+        <item>glukagon dan nonadrenalin</item>
+        <item>koklea</item>
+        <item>suhu</item>
+        <item>buta warna</item>
+    </string-array>
+
+    <string-array name="ent_cho_D">
+        <item>neuron motor</item>
+        <item>motoris-sensoris-sumsum tulang belakang-kaki</item>
+        <item>medula spinalis dan medula oblongata</item>
+        <item>dura meter</item>
+        <item>pons Varolii</item>
+        <item>serebelum</item>
+        <item>ekspresi wajah</item>
+        <item>relaksasi otot mata untuk melihat jarak jauh</item>
+        <item>HCG</item>
+        <item>sekresi estrogen</item>
+        <item>MSH dan adrenalin</item>
+        <item>mineralokortikoid dan tiroksin</item>
+        <item>duktus endolimfa</item>
+        <item>nyeri</item>
+        <item>miopi</item>
+    </string-array>
+
+    <string-array name="ent_ans">
+        <item>neuron sensor</item>
+        <item>sensoris-sumsum tulang belakang-motoris-kaki</item>
+        <item>otak dan medula spinalis</item>
+        <item>dura meter</item>
+        <item>serebelum</item>
+        <item>medula spinalis</item>
+        <item>ekspresi wajah</item>
+        <item>relaksasi otot mata untuk melihat jarak jauh</item>
+        <item>oksitosin</item>
+        <item>ovulasi</item>
+        <item>ACTH dan LH</item>
+        <item>insulin dan adrenalin</item>
+        <item>saluran eustachius</item>
+        <item>suhu</item>
+        <item>buta warna</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hardinata.restu.sistemkoordinasi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MateriActivity"></activity>
+        <activity android:name=".ScreenSlideActivity"></activity>
+        <activity android:name=".ScreenSlideActivityEndokrin"></activity>
+        <activity android:name=".ScreenSlideActivityIndra"></activity>
+        <activity android:name=".ScreenSlideActivityKurikulum"></activity>
+        <activity android:name=".ScreenSlideActivityPendahuluan"></activity>
+        <activity android:name=".ScreenSlideActivityAbout"></activity>
+        <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".EvaluasiActivity"></activity>
+        <activity android:name=".QuizMain"></activity>
+        <activity android:name=".DictionaryActivity"></activity>
+        <activity android:name=".TampilanKamus"></activity>
+        <activity android:name=".SoalKuis" />
+        <activity android:name=".Result" />
+
+    </application>
+
+</manifest>

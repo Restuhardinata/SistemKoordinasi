@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hardinata.restu.sistemkoordinasi.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue">
+
+    <Button
+        android:id="@+id/button_soal"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_soal"
+        android:textColor="#3e3e3e"
+        android:text="SOAL"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button_soal1"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_soal1"
+        android:textColor="#3e3e3e"
+        android:text="SOAL 2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button_test_buta_warna"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_buta_warna"
+        android:textColor="#3e3e3e"
+        android:text="TEST BUTA WARNA"
+        android:layout_gravity="center_horizontal" />
+
+</com.hardinata.restu.sistemkoordinasi.DashboardLayout>

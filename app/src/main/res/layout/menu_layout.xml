@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hardinata.restu.sistemkoordinasi.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hd1">
+
+
+    <!--  Tombol Kurikulum -->
+    <Button
+        android:id="@+id/btn_kurikulum"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_kurikulum"
+        android:textColor="@color/colorMainMenu"
+        android:text="@string/MKurikulum" />
+
+    <!--  Tombol Materi -->
+    <Button
+        android:id="@+id/btn_materi"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_materi"
+        android:textColor="@color/colorMainMenu"
+        android:layout_marginLeft="45dp"
+        android:text="@string/MMateri" />
+
+
+    <!--  Tombol QUIZ -->
+    <Button
+        android:id="@+id/btn_evaluasi"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_evaluasi"
+        android:textColor="@color/colorMainMenu"
+        android:text="@string/MEvaluasi" />
+
+    <!--  Tombol Kamus -->
+    <Button
+        android:id="@+id/button4"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_kamus"
+        android:textColor="@color/colorMainMenu"
+        android:text="Dictionary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <!--  Tombol About -->
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_about"
+        android:textColor="@color/colorMainMenu"
+        android:layout_marginLeft="45dp"
+        android:text="@string/MAbout" />
+
+</com.hardinata.restu.sistemkoordinasi.DashboardLayout>

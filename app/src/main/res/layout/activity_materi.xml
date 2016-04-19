@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hardinata.restu.sistemkoordinasi.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue">
+
+    <Button
+        android:id="@+id/button0"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_pendahuluan"
+        android:textColor="#3e3e3e"
+        android:paddingTop="10dp"
+        android:text="PENDAHULUAN"
+        android:layout_gravity="center_horizontal"  />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_sistem_saraf"
+        android:textColor="#3e3e3e"
+        android:paddingTop="10dp"
+        android:text="SISTEM SARAF"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_hormon"
+        android:textColor="#3e3e3e"
+        android:paddingTop="10dp"
+        android:text="SISTEM HORMON"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_sistem_indra"
+        android:textColor="#3e3e3e"
+        android:paddingTop="10dp"
+        android:text="SISTEM INDRA"
+        android:layout_gravity="center_horizontal"  />
+
+</com.hardinata.restu.sistemkoordinasi.DashboardLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sistem Koordinasi</string>
+    <string name="action_settings">Setting</string>
+
+    <string name="MKurikulum">Kurikulum</string>
+    <string name="MMateri">Materi</string>
+    <string name="MEvaluasi">Quiz</string>
+    <string name="MAbout">About</string>
+
+</resources>
